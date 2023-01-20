@@ -1,0 +1,106 @@
+{
+  "usesTypeScript": false,
+  "usesCssModule": false,
+  "cssPreprocessor": "scss",
+  "testLibrary": "Testing Library",
+  "component": {
+    "default": {
+      "path": "src/components",
+      "withStyle": true,
+      "withLazy": true,
+      "withStory": true,
+      "withTest": true
+    },
+    "atom": {
+      "path": "src/components/atoms",
+      "withStyle": true,
+      "withLazy": true,
+      "withStory": true,
+      "withTest": true
+    },
+    "custom": {
+      "customTemplates": {
+        "component": "templates/component/TemplateName.js",
+        "style": "templates/component/TemplateName.css",
+        "lazy": "templates/component/TemplateName.lazy.js",
+        "story": "templates/component/TemplateName.stories.js",
+        "test": "templates/component/TemplateName.test.js"
+      },
+      "path": "src/components/custom",
+      "withStyle": false,
+      "withLazy": false,
+      "withStory": false,
+      "withTest": true
+    }
+  },
+  "hook": {
+    "default": {
+      "path": "src/hooks",
+      "withTest": true
+    },
+    "jobOrder": {
+      "path": "src/hooks/jobOrder",
+      "withTest": true
+    },
+    "custom": {
+      "customTemplates": {
+        "hook": "templates/hook/TemplateName.hook.js",
+        "test": "templates/hook/TemplateName.hook.test.js"
+      },
+      "path": "src/hooks/custom",
+      "withTest": true
+    }
+  },
+  "view": {
+    "default": {
+      "path": "src/views",
+      "withRoute": true,
+      "withViewModel": true,
+      "withTest": true
+    },
+    "report": {
+      "path": "src/views/report",
+      "withRoute": true,
+      "withViewModel": true,
+      "withTest": true
+    },
+    "custom": {
+      "customTemplates": {
+        "view": "templates/view/TemplateName.view.js",
+        "route": "templates/view/TemplateName.route.js",
+        "viewModel": "templates/view/TemplateName.viewModel.js",
+        "viewTest": "templates/view/TemplateName.view.test.js",
+        "routeTest": "templates/view/TemplateName.route.test.js",
+        "viewModelTest": "templates/view/TemplateName.viewModel.test.js"
+      },
+      "path": "src/views/custom",
+      "withRoute": true,
+      "withViewModel": true,
+      "withTest": true
+    }
+  },
+  "scaffold": {
+    "default": {
+      "url": "https://github.com/rifandani/frontend-template-rest.git"
+    },
+    "vite": {
+      "command": "npm create vite@latest my-react-app -- --template react-ts"
+    }
+  },
+  "store": {
+    "default": {
+      "path": "src/stores",
+      "withTest": true,
+      "useEntityAdapter": false
+    },
+    "custom": {
+      "customTemplates": {
+        "store": "templates/stores/TemplateName.store.js",
+        "test": "templates/stores/TemplateName.store.test.js"
+      },
+      "path": "src/stores/custom",
+      "withTest": true,
+      "useEntityAdapter": true
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.github
+.husky
+.eslintignore
+.env
+src
+index.d.ts
+regen.example.json
+tsconfig.json

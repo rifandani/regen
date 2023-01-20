@@ -1,6 +1,6 @@
 {
   "name": "@rifandani/regen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Command Line Interface (CLI) for React to generate components, hooks, view model template, etc.",
   "repository": {
     "type": "git",

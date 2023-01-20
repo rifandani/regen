@@ -1,3 +1,10 @@
+# 1.0.0 (2023-01-20)
+
+
+### Features
+
+* init project ([1853894](https://github.com/rifandani/regen/commit/1853894fbe7496c4fbc5ef24077ae37655d156cc))
+
 ## [1.1.5](https://github.com/rifandani/regen/compare/v1.1.4...v1.1.5) (2023-01-20)
 
 
